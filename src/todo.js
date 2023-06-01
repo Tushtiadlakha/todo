@@ -7,7 +7,7 @@ export default function Todo() {
   
 
   const addList= ()=>{
-    if(list!="")
+    if(list!=="")
     {
       addNewList((old)=>{
         return [...old,list]
