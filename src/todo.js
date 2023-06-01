@@ -23,7 +23,7 @@ export default function Todo() {
 
   const del=(index)=>{
     addNewList((old)=>{
-      return old.filter((val,ind)=> index!=ind)})
+      return old.filter((val,ind)=> index!==ind)})
   }
 
   return (
